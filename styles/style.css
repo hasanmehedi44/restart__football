@@ -3,3 +3,99 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.custom__btn {
+    padding: 10px 24px;
+    width: 168px;
+    height: 44px;
+    border: none;
+    background: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-top: 27px;
+}
+
+/* Navbar styles */
+header {
+    background: #2D25A0;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items,
+.login {
+    margin-top: 42px;
+}
+.nav-items {
+    margin-left: 138px;
+}
+.login {
+    margin-right: 124px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+.login i,
+.login span {
+    padding: 4px;
+}
+.login button {
+    padding: 10px 24px;
+    width: 123px;
+    height: 44px;
+    color: white;
+    border: none;
+    background: #E02C6D;
+}
+
+.header-section {
+    display: flex;
+    margin-left: 156px;
+    margin-right: 140px;
+    padding-bottom: 86px;
+}
+.header-content {
+    margin-top: 121px;
+}
+.header-content h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+.header-content-img {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 67px;
+}
+.header-content-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
