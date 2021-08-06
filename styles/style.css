@@ -17,7 +17,7 @@
 .custom__btn span {
     margin-right: 4px;
 }
-..custom__btn i {
+.custom__btn i {
     margin-left: 8px;
 }
 
@@ -133,7 +133,41 @@ main {
 }
 
 
-
+/* logo area */
+.logo-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.logo-area {
+    width: 490px;
+}
+.logo-container {
+    width: 483px;
+    margin-top: 158px;
+}
+.logo-container img {
+    width: 100%;
+}
+.icon-contaier {
+    display: flex;
+    justify-content: center;
+}
+.icon-contaier .fab {
+    font-size: 32px;
+    margin: 14px;
+    padding: 12px;
+    color: #969BAB;
+    background-color: rgb(228, 223, 223);
+    border-radius: 50%;
+}
+.logo-area p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
