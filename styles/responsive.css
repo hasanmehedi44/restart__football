@@ -1,0 +1,109 @@
+@media only screen and (max-width: 688px) {
+    body {
+        width: 100%;
+    }
+    .custom__btn {
+        margin-bottom: 50px;
+    }
+    .header-section {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-content {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .header-content h1 {
+        font-size: 36px;
+        margin: 10px;
+    }
+    .header-content-img {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    nav .nav-items {
+        display: none;
+        margin: 0;
+    }
+    .nav-icon {
+        font-size: 25px;
+    }
+    nav .nav-icon {
+        display: block;
+        margin: 15px;
+    }
+    .login {
+        margin: 15px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 47px;
+    }
+    .player {
+        /* margin: 20px; */
+        margin: 10px auto;
+        width: 80%;
+    }
+    .player-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .player-container .img-container,
+    .player-container p {
+        margin: 0 auto;
+    }
+    .img-containe {
+        padding: 20px 10px;
+    }
+
+
+    .highligts-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        grid-row-gap: 24px;
+    }
+    .highlight-content {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .highlight-img {
+        width: 80%;
+        height: 94%;
+        display: flex;
+        justify-content: center;
+    }
+    .highlight-img img {
+        width: 80%;
+    }
+
+
+    .logo-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 300px;
+    }
+    .logo-area {
+        width: 100%;
+        margin-top: 54px;
+    }
+    .logo-container {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .logo-container img {
+        width: 70%;
+    }
+    .icon-contaier .fab {
+        font-size: 22px;
+    }
+
+
+}

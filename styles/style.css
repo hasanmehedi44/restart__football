@@ -37,6 +37,9 @@ nav {
 .nav-items {
     margin-left: 138px;
 }
+.nav-icon {
+    display: none;
+}
 .login {
     margin-right: 124px;
 }
