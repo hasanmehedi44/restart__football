@@ -78,6 +78,14 @@ nav ul li a {
 .header-content {
     margin-top: 121px;
 }
+header:not(:hover) .custom__btn{
+    transform: translateX(0);
+    transition: all 1s;
+}
+header:hover .custom__btn{
+    transform: translateX(65px);
+    transition: all 1s;
+}
 .header-content h1 {
     font-weight: 700;
     font-size: 64px;
