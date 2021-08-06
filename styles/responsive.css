@@ -55,6 +55,9 @@
     }
     .player-container img {
         width: 89%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
     }
     .player-container .img-container,
     .player-container p {
