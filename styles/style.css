@@ -105,6 +105,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
+    margin-bottom: 82px;
     grid-row-gap: 27px;
     grid-column-gap: 30px;
 }
@@ -131,6 +132,29 @@ main {
 .img-container img {
     width: 100%;
 }
+
+/* highlights styles */
+.highlights-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+}
+.highligts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 69px;
+}
+.highlight-content {
+    margin: auto 0;
+}
+.highlight-img {
+    width: 567px;
+    height: 427px;
+}
+.highlight-img img {
+    width: 100%;
+}
+
 
 
 /* logo area */
